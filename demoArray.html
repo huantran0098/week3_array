@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo test array</title>
+</head>
+<body>
+<script>
+    // var numbers = [1,2, 3, 4, 5, 6, 7, 8, 4, 4, 5, 9, 10];
+    // numbers.push("apple") ;
+    // numbers.splice(2, 3) ;
+    // var nums = [4, 4, 4] ;
+    // var news = numbers.concat(nums) ;
+    // document.write(news);
+    // alert(numbers.indexOf(5 , 7))
+
+    // document.write(numbers);
+
+
+
+
+    // alert(numbers[6]);
+    // numbers.push(11);
+    // alert(numbers)
+
+    // numbers[numbers.length] = 11 ;
+    // alert(numbers)
+
+    // for ( i =  0; i < numbers.length ; i ++){
+    //     text += numbers[i] + "<br>"
+    // } document.write(text + "<br>")
+
+    // numbers.forEach(function (itiem) { document.write(itiem + "<br>"); })
+
+    let array2 = new Array(5)
+    for (let i = 0; i < array2.length; i++) {
+        array2[i] = new Array(3)
+    }
+    console.log(array2)
+    for (let i = 0; i < array2.length; i++) {
+        for (let j = 0; j < array2[i].length; j++) {
+            array2[i][j] = "a"
+        }
+    }
+    console.log(array2)
+</script>
+</body>
+</html>
